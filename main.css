@@ -64,6 +64,7 @@ a:hover {
     padding: 60px;
     gap: 40px;
     flex-direction: row;
+    display: flex;
 }
 
 .texto {
@@ -168,6 +169,7 @@ input {
 
 #sessao-produtos{
     background-color: rgb(223, 218, 210);
+    display: flex;
 }
 
 .textblock {

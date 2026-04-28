@@ -1,0 +1,194 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+#favicom{
+    width: 100px;
+}
+
+/* Corpo */
+body {
+    background-color: ivory;
+}
+
+/* Header cabeçalho*/
+header {
+    background: #FFF;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, ivory 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 60px;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+}
+
+/* Logo da empresa */
+.logotipo img {
+    width: 300px;
+}
+
+/* Menu opções do topo direito */
+nav ul {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin-right: 50px;
+}
+
+nav li {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 166, 0);
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    gap: 40px;
+    flex-direction: row;
+}
+
+.texto {
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 700px;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 100px;
+    height: 650px;
+    width: auto;
+    align-items: top;
+    border: 5px solid rgb(165, 148, 111);
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Input + botão */
+input {
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+
+}
+
+.botoes{
+    margin-top: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.botoes input{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+#btnenviar {
+    text-align: center;
+    padding: 10px;
+    border: 1px;
+    background-color: #3f3f3f;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+
+#btnenviar:hover {
+    background-color: rgb(255, 145, 0);
+}
+
+/* Imagem */    
+.imagem img {
+    width: 700px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.imagemblock img {
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    align-items: center;
+}
+
+#text2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+#sessao-produtos{
+    background-color: rgb(223, 218, 210);
+}
+
+.textblock {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraphblock {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 600px;
+    align-items: center;   
+}
+footer {
+    background-color: rgb(223, 218, 210);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}

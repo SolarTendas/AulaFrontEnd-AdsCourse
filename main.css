@@ -64,7 +64,6 @@ a:hover {
     padding: 60px;
     gap: 40px;
     flex-direction: row;
-    display: flex;
 }
 
 .texto {
@@ -194,3 +193,23 @@ span {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
 }
+
+@media (max-width:780px){ /* Lembrar de estudar para arrumar o tamanho do parágrafo */
+    .container{
+        flex-direction: column;
+    }
+    .block{
+        flex-direction: column;
+    }
+    .imagem{
+        max-width: fit-content;
+    }
+    .imagemblock{
+        max-width: fit-content;
+    }
+    .paragraphblock{
+        max-width: 250px;
+        max-height: 250px;
+    }
+}
+  
